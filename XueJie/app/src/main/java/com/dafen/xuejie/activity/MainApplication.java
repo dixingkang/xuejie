@@ -25,6 +25,7 @@ public class MainApplication extends Application {
     private static MainApplication instance;
     private RequestQueue requestQueue;
     /**
+     * 111111111111111
      * ApplicationContext
      */
     private static Context sContext;
