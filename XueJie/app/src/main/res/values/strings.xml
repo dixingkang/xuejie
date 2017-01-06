@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">XueJie</string>
+
+    <string name="bottom_btn_1">首页</string>
+    <string name="bottom_btn_2">发现</string>
+    <string name="bottom_btn_3">购物车</string>
+    <string name="bottom_btn_4">我的</string>
+    <!--上拉下滑刷新加载数据 -->
+    <string name="header_hint_refresh_normal">下拉刷新</string>
+    <string name="header_hint_refresh_ready">松开加载数据</string>
+    <string name="header_hint_refresh_loading">正在加载数据...&#8230;</string>
+    <string name="header_hint_refresh_time">Time：</string>
+    <string name="footer_hint_load_normal">点击加载更多</string>
+    <string name="footer_hint_load_ready">下拉加载更多</string>
+    <string name="title_activity_guan_yu_wo_men">GuanYuWoMenActivity</string>
+
+
+
+    <!-- LoadingPageLayout -->
+    <string name="load_error">加载失败,点击重试</string>
+    <string name="state_unknow">未知状态</string>
+
+    <!-- NetworkRequestState -->
+    <string name="default_network_exception">网络异常</string>
+    <string name="default_network_loading">正在奋力请求中</string>
+
+    <!--常规描述-->
+    <string name="success">SUCCESS</string>
+
+</resources>

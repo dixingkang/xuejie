@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/huihui"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/rl_back"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/hongse">
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/xxiao"
+                android:background="@drawable/fh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bai"
+                android:textSize="@dimen/jzxiao"
+                android:text="设置"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xiao"
+        android:background="@color/bai">
+        <TextView
+            android:id="@+id/tv_Version"
+           android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/xxiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/qianhei"
+            android:text="版本信息"/>
+
+        <ImageView
+           android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/xxiao"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/xq"
+            android:layout_width="@dimen/tupiao"
+            android:layout_height="@dimen/xxiao" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/huihui"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xiao"
+        android:background="@color/bai">
+        <TextView
+            android:id="@+id/tv_eliminate"
+            android:layout_marginLeft="@dimen/xxiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/qianhei"
+            android:text="清除缓存"/>
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/xxiao"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/xq"
+            android:layout_width="@dimen/tupiao"
+            android:layout_height="@dimen/xxiao" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/rl_back"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/hongse">
+        <ImageView
+            android:layout_marginLeft="@dimen/xxiao"
+            android:background="@drawable/fh"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bai"
+            android:textSize="@dimen/es"
+            android:text="我的地址"/>
+</RelativeLayout>
+    <ListView
+        android:id="@+id/lv"
+        android:layout_below="@+id/rl_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+        <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/bai"
+            android:layout_weight="8">
+            <Button
+                android:id="@+id/but_add_address"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/sw"
+                android:layout_marginRight="@dimen/sw"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/sum_btton"
+                android:textColor="@color/bai"
+                android:textSize="@dimen/es"
+                android:text="新增地址"/>
+        </RelativeLayout>
+
+</RelativeLayout>

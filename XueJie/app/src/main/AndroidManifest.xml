@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dafen.xuejie"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    //照相机
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:name=".activity.MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.wode.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.wode.SetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.wode.IndexActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.ProductActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SettlementActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.wodedingdan.IndentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.wodedizhi.MyAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.wodedizhi.AddSiteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.wode.IdeaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.wode.LeagueActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.jiaxiao.ApplyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.shouji.MaintainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.shouji.PhoneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.jiaxiao.DrivingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.shuiguo.FruitActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.wode.BalanceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.wode.WithdrawActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.wodedingdan.DetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.wode.MyAccountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            />
+        <activity
+            android:name=".activity.wode.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.wode.RecoverPasswordActivity"
+            android:screenOrientation="portrait"
+             />
+        <activity
+            android:name=".activity.wodedingdan.LineItemActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.chaoshi.ShopActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.shouye.BerserkActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

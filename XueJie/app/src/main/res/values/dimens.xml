@@ -1,0 +1,68 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="bottom_btn_padding_top">2dp</dimen>
+    <dimen name="row_bottom_margin">3dp</dimen>
+    <color name="line">#e1e1e1</color>
+    <color name="title_bg">#339966</color>
+    <color name="text3">#b3b3b3</color>
+    <color name="backGroundColor">@color/title_bg</color>
+    <dimen name="textSize">15dp</dimen>
+    <!--左右距离 -->
+    <dimen name="hda">200px</dimen>
+    <dimen name="da">150px</dimen>
+    <dimen name="zhong">130px</dimen>
+    <dimen name="xiao">100px</dimen>
+    <dimen name="xxiao">30px</dimen>
+    <dimen name="xxxiao">25px</dimen>
+    <dimen name="xxxxiao">15px</dimen>
+    <dimen name="henxiao">10px</dimen>
+    <dimen name="henxxiao">5px</dimen>
+    <dimen name="zouxiao">50px</dimen>
+    <dimen name="youxiao">50px</dimen>
+    <dimen name="jzxiao">40px</dimen>
+    <dimen name="sss">44px</dimen>
+    <dimen name="jda">300px</dimen>
+    <dimen name="jzhong">150px</dimen>
+    <dimen name="jxiao">80px</dimen>
+    <dimen name="jhenxxiao">30px</dimen>
+    <dimen name="jhenxxxiao">20px</dimen>
+    <dimen name="jhenxxxxiao">10px</dimen>
+    <dimen name="tupiao">19px</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="sbw">350dp</dimen>
+    <dimen name="sb">300dp</dimen>
+    <dimen name="ebs">260dp</dimen>
+    <dimen name="ebw">250dp</dimen>
+    <dimen name="ebe">220dp</dimen>
+    <dimen name="eb">200dp</dimen>
+    <dimen name="ybb">180dp</dimen>
+    <dimen name="ybl">160dp</dimen>
+    <dimen name="ybs">140dp</dimen>
+    <dimen name="ybe">120dp</dimen>
+    <dimen name="yb">100dp</dimen>
+    <dimen name="jsw">95dp</dimen>
+    <dimen name="js">90dp</dimen>
+    <dimen name="bs">80dp</dimen>
+    <dimen name="qs">70dp</dimen>
+    <dimen name="ls">60dp</dimen>
+    <dimen name="ws">50dp</dimen>
+    <dimen name="forty">40dp</dimen>
+    <dimen name="ssw">35dp</dimen>
+    <dimen name="ss">30dp</dimen>
+    <dimen name="esw">25dp</dimen>
+    <dimen name="es">20dp</dimen>
+    <dimen name="sw">15dp</dimen>
+    <dimen name="ten">10dp</dimen>
+    <dimen name="seven">7dp</dimen>
+    <dimen name="five">5dp</dimen>
+    <!--横向滑动-->
+    <dimen name="rdo1">0dp</dimen>
+    <dimen name="rdo2">100dp</dimen>
+    <dimen name="rdo3">200dp</dimen>
+    <dimen name="rdo4">300dp</dimen>
+    <dimen name="rdo5">400dp</dimen>
+
+</resources>

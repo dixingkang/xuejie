@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="125dp"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_marginTop="@dimen/five"
+        android:layout_marginLeft="@dimen/five"
+        android:layout_marginRight="@dimen/five"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/shape_huise"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/id_index_gallery_item_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+        <TextView
+            android:id="@+id/id_index_gallery_item_text"
+            android:layout_marginLeft="@dimen/five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/hongse"
+            android:text="南非橙子"
+            android:textSize="12dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv"
+            android:layout_marginLeft="@dimen/five"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/hongse"
+            android:text="￥"/>
+        <TextView
+            android:layout_marginLeft="@dimen/five"
+            android:layout_toRightOf="@+id/tv"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/hongse"
+            android:textSize="12dp"
+            android:text="8.0"/>
+        <TextView
+            android:layout_marginRight="@dimen/five"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="@dimen/sw"
+            android:layout_height="@dimen/sw"
+            android:background="@drawable/tj"/>
+    </RelativeLayout>
+
+        <!--&lt;!&ndash;这个应该在购物车里面用到&ndash;&gt;-->
+        <!--<com.dafen.xuejie.view.MyNumberButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:editable="true"/>-->
+
+
+</LinearLayout>

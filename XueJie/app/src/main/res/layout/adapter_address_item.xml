@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/huihui"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bs"
+    android:background="@color/bai"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="@dimen/sw"
+        android:layout_marginLeft="@dimen/forty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保定未来石"/>
+        <EditText
+            android:id="@+id/et_write"
+            android:layout_marginLeft="@dimen/es"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/bai"
+            android:hint="3号楼610"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/sw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="@dimen/forty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="老低"/>
+        <TextView
+            android:id="@+id/tv_tel"
+            android:layout_marginLeft="@dimen/ws"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="182********"/>
+    </LinearLayout>
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/hui"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/forty"
+        android:background="@color/bai"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/eb"
+                android:background="@drawable/xg"/>
+
+            <TextView
+                android:id="@+id/tv_alter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/five"
+                android:text="修改"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/five"
+                android:layout_toLeftOf="@+id/tv_delete"
+                android:background="@drawable/delete"/>
+
+            <TextView
+                android:id="@+id/tv_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/esw"
+                android:text="删除"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

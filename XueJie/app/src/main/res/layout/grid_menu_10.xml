@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!--放5个-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/bai"
+        android:weightSum="4">
+
+        <com.dafen.xuejie.view.GridMenu
+            android:id="@+id/grid_shop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </com.dafen.xuejie.view.GridMenu>
+
+        <com.dafen.xuejie.view.GridMenu
+            android:id="@+id/grid_fruit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </com.dafen.xuejie.view.GridMenu>
+        <com.dafen.xuejie.view.GridMenu
+            android:id="@+id/grid_driving"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </com.dafen.xuejie.view.GridMenu>
+        <com.dafen.xuejie.view.GridMenu
+            android:id="@+id/grid_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </com.dafen.xuejie.view.GridMenu>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/bai"
+        android:weightSum="4">
+
+        <com.dafen.xuejie.view.GridMenu
+            android:id="@+id/grid_czzx"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        </com.dafen.xuejie.view.GridMenu>
+
+        <com.dafen.xuejie.view.GridMenu
+            android:id="@+id/grid_fzlx"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        </com.dafen.xuejie.view.GridMenu>
+
+        <com.dafen.xuejie.view.GridMenu
+            android:id="@+id/grid_ljb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        </com.dafen.xuejie.view.GridMenu>
+
+        <com.dafen.xuejie.view.GridMenu
+            android:id="@+id/grid_dj"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        </com.dafen.xuejie.view.GridMenu>
+
+
+    </LinearLayout>
+
+</LinearLayout>

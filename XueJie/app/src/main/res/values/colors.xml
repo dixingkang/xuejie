@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#FF4081</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lan">#35bbb0</color>
+    <color name="molan">#1d222d</color>
+    <color name="hui">#cccccc</color>
+    <color name="qianhui">#efefef</color>
+    <color name="bai">#ffffff</color>
+    <color name="shenhui">#a4a4a4</color>
+    <color name="zuibuhui">#dcdcdc</color>
+    <color name="haishihui">#f0f0f0</color>
+    <color name="myColor">#00000000</color>
+    <color name="xiaohui">#f0f0f0</color>
+    <color name="huihui">#eeeeee</color>
+    <color name="hongse">#fa4846</color>
+    <color name="black">#000000</color>
+    <color name="qianhei">#333333</color>
+    <color name="zuiqianhui">#eeeeee</color>
+    <color name="orange">#fcaf75</color>
+    <color name="pink">#fa5c5b</color>
+    <color name="cerise">#fc2b8f</color>
+
+    <color name="divider">#999</color>
+
+    <!--标题渐变-->
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="radiobg_press">#fa4846</color>
+    <color name="radiobg_normal">#ffffff</color>
+</resources>

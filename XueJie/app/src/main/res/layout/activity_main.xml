@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:id="@+id/frameLayout_main"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line" />
+
+        <RadioGroup
+            android:id="@+id/tab_menu"
+            style="@style/Layout_M_W"
+            android:background="@color/bai"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/row_bottom_margin"
+            android:paddingTop="@dimen/row_bottom_margin">
+
+            <RadioButton
+                android:id="@+id/bottom_btn_first"
+                style="@style/bottom_btn_style"
+                android:drawableTop="@drawable/tab_selector_btn_firstpage"
+                android:text="@string/bottom_btn_1" />
+
+            <RadioButton
+                android:id="@+id/bottom_btn_bussniss"
+                style="@style/bottom_btn_style"
+                android:drawableTop="@drawable/tab_selector_btn_farmer"
+                android:text="@string/bottom_btn_2" />
+
+
+            <RadioButton
+                android:id="@+id/bottom_btn_shopcar"
+                style="@style/bottom_btn_style"
+                android:drawableTop="@drawable/tab_selector_btn_shoppingcar"
+                android:text="@string/bottom_btn_3" />
+
+            <RadioButton
+                android:id="@+id/bottom_btn_me"
+                style="@style/bottom_btn_style"
+                android:drawableTop="@drawable/tab_selector_btn_myself"
+                android:text="@string/bottom_btn_4" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>
